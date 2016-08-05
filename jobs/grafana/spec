@@ -3,8 +3,9 @@ name: grafana
 
 templates:
   grafana_ctl: bin/grafana_ctl
+  post-start: bin/post-start
   create_dashboards.erb: bin/create_dashboards
-  create_datasource.erb: bin/create_datasource
+  create-update-datasources.erb: bin/create-update-datasources
   config.ini.erb: config/config.ini
   ssl.key.erb: config/ssl.key
   ssl.crt.erb: config/ssl.crt
