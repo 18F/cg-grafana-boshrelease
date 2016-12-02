@@ -84,6 +84,10 @@ properties:
   grafana.auth.generic_oauth.client_secret:
     description: "OAuth client secret."
 
+  grafana.auth.generic_oauth.scopes:
+    description: "OAuth scopes."
+    default: []
+
   grafana.auth.generic_oauth.auth_url:
     description: "OAuth authorization endpoint."
 
